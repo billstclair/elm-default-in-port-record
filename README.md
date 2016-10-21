@@ -33,7 +33,7 @@ var _user$project$Main$update = F2(
 	});
 ```
 
-The compiler does _not_ properly default it, however in the code the converts it from Elm to JavaScript for saving (when you click the "Click Me" button and ```updateWithStorage``` invokes the ```setStorage``` port):
+The compiler does _not_ properly escape it, however in the code the converts it from Elm to JavaScript for saving (when you click the "Click Me" button and ```updateWithStorage``` invokes the ```setStorage``` port):
 
 ```
 var _user$project$Main$setStorage = _elm_lang$core$Native_Platform.outgoingPort(
