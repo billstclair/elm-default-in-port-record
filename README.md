@@ -3,7 +3,7 @@ macOS Sierra version 10.12<br/>
 Opera 40.0.2308.81
 
 
-This project is for elucidation of an Elm compiler bug.
+This project is for elucidation of an Elm compiler bug. I reported it in the elm-compiler project as [issue #1510](https://github.com/elm-lang/elm-compiler/issues/1510).
 
 Build index.js with:
 
